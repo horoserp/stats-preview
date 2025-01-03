@@ -1,6 +1,6 @@
 {
-    "name": "Order Summary Preview | FEM",
-    "short_name": "Order Summary",
+    "name": "Stats Preview Card | FEM",
+    "short_name": "Stats Preview",
     "icons": [
       {
         "src": "https://horoserp.github.io/order-summary/assets/icons/web-app-manifest-192x192.png",
@@ -17,15 +17,15 @@
     ],
     "screenshots": [
       {
-       "src": "https://horoserp.github.io/order-summary/assets/images/desktop-screenshot.jpeg",
-        "sizes": "1440x900",
+       "src": "https://horoserp.github.io/order-summary/assets/images/desktop-design.jpg",
+        "sizes": "1440x800",
         "type": "image/png",
         "form_factor": "wide",
         "label": "Desktop Rating Component"
       },
       {
-        "src": "https://horoserp.github.io/order-summary/assets/images/mobile-screenshot.jpeg",
-         "sizes": "375x709",
+        "src": "https://horoserp.github.io/order-summary/assets/images/mobile-design.jpg",
+         "sizes": "375x956",
          "type": "image/png",
          "form_factor": "narrow",
          "label": "Mobile Rating Component"
@@ -34,7 +34,7 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
-    "description": "Order Summary Preview Card",
+    "description": "Stats Preview Card",
     "start_url": ".",
     "id": "/assets/icons/",
     "orientation": "any"
