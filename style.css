@@ -37,7 +37,7 @@ html {
 }
 
 body {
-  font-family: "Inter";
+  font-family: "Lexend";
 }
 
 main {
@@ -55,6 +55,9 @@ section {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
   background-color: var(--card-background);
   padding: 5rem;
 }
@@ -62,6 +65,37 @@ section {
 .stats {
   display: flex;
   justify-content: space-between;
+  padding-right: 2.4rem;
+}
+
+.content h1,
+.stats .category h2 {
+  color: var(--main-heading-stats);
+  font-weight: 700;
+}
+
+.content h1 {
+  font-family: "Inter";
+  font-size: 2.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.content h1 span {
+  color: var(--accent);
+  font-family: "Inter";
+}
+
+.content p {
+  color: var(--main-paragraph);
+  line-height: 1.6;
+}
+
+.stats .category h3 {
+  color: var(--stat-headings);
+  font-family: "Inter";
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 /* Extra small devices (phones, 600px and down) */
