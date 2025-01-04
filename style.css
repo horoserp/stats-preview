@@ -40,6 +40,25 @@ body {
   font-family: "Inter";
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--main-background);
+}
+
+section {
+  display: inherit;
+  width: 1080px;
+  height: 446px;
+}
+
+.content {
+  background-color: var(--card-background);
+  padding: 5rem;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
