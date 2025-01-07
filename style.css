@@ -123,6 +123,19 @@ section {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  main {
+    width: 375px;
+    height: 956px;
+  }
+
+  section {
+    flex-direction: column-reverse;
+    margin: 0 48px;
+  }
+
+  .img-container img {
+    content: url("./assets/images/image-header-mobile.jpg");
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
