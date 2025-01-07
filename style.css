@@ -50,7 +50,7 @@ main {
 
 section {
   display: inherit;
-  width: 1080px;
+  width: 1140px;
   height: 446px;
 }
 
@@ -60,6 +60,8 @@ section {
   gap: 4rem;
   background-color: var(--card-background);
   padding: 5rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .stats {
@@ -76,7 +78,7 @@ section {
 
 .content h1 {
   font-family: "Inter";
-  font-size: 2.6rem;
+  font-size: 2.45rem;
   margin-bottom: 1.5rem;
 }
 
@@ -90,12 +92,21 @@ section {
   line-height: 1.6;
 }
 
+.stats .category h2 {
+  padding-bottom: 0.5rem;
+}
+
 .stats .category h3 {
   color: var(--stat-headings);
   font-family: "Inter";
   font-size: 0.8rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.img-container img {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 /* Extra small devices (phones, 600px and down) */
