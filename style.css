@@ -107,7 +107,16 @@ section {
   text-transform: uppercase;
 }
 
+.img-container {
+  background-color: var(--accent);
+}
+
 .img-container img {
+  opacity: 0.5;
+}
+
+.img-container img,
+.img-container {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
