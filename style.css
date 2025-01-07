@@ -57,9 +57,9 @@ section {
 .content {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 4.5rem;
   background-color: var(--card-background);
-  padding: 5rem;
+  padding: 5rem 7rem 5rem 5rem;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
@@ -67,7 +67,7 @@ section {
 .stats {
   display: flex;
   justify-content: space-between;
-  padding-right: 2.4rem;
+  padding-right: 4.5rem;
 }
 
 .content h1,
@@ -78,7 +78,7 @@ section {
 
 .content h1 {
   font-family: "Inter";
-  font-size: 2.45rem;
+  font-size: 2.6rem;
   margin-bottom: 1.5rem;
 }
 
@@ -90,10 +90,12 @@ section {
 .content p {
   color: var(--main-paragraph);
   line-height: 1.6;
+  padding-right: 4rem;
 }
 
 .stats .category h2 {
   padding-bottom: 0.5rem;
+  font-weight: 400;
 }
 
 .stats .category h3 {
@@ -101,6 +103,7 @@ section {
   font-family: "Inter";
   font-size: 0.8rem;
   font-weight: 400;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
