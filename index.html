@@ -77,10 +77,16 @@
           </div>
         </div>
         <div class="img-container">
-          <img
-            src="./assets/images/image-header-desktop.jpg"
-            alt="business meeting"
-          />
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="./assets/images/image-header-mobile.jpg"
+            />
+            <img
+              src="./assets/images/image-header-desktop.jpg"
+              alt="business meeting"
+            />
+          </picture>
         </div>
       </section>
     </main>
