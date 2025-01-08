@@ -126,13 +126,30 @@ section {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   main {
-    width: 375px;
+    width: 100vw;
     height: 956px;
+  }
+
+  picture img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-container img,
+  .img-container {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 8px;
   }
 
   section {
     flex-direction: column-reverse;
+    width: 100%;
     margin: 0 48px;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0;
   }
 }
 
