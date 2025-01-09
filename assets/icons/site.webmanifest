@@ -25,7 +25,7 @@
       },
       {
         "src": "https://horoserp.github.io/stats-preview/assets/images/mobile-screenshot.jpeg",
-         "sizes": "375x956",
+         "sizes": "416x956",
          "type": "image/png",
          "form_factor": "narrow",
          "label": "Mobile Rating Component"
