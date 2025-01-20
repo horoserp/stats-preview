@@ -140,6 +140,7 @@ section {
 
   .img-container img,
   .img-container {
+    height: 242px;
     border-bottom-right-radius: 0;
     border-top-left-radius: 8px;
   }
